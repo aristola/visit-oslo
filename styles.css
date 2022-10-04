@@ -1,0 +1,143 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    max-width: 800px;
+
+}
+
+img {
+    width: 100px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#hero {
+    color: white;
+    text-shadow: 0 0 10px black;
+    
+    background-image: url("http://res.cloudinary.com/simpleview/image/upload/v1615359416/clients/norway/Saunas_Oslo_Eastern_Norway_Photo_Didrick_Stenersen_2_1_f30d686b-75cf-4b07-a631-da4dd326db8d.jpg");
+    background-size: cover;
+    padding: 20px 0 40px;
+}
+
+#hero-subtitle {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#activities-section {
+    background: lightblue;
+    padding: 10px 10px 20px;
+}
+
+#activities-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activities-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.activity-image {
+      width:100px;
+      height:100px;
+      object-fit:cover;
+      border-radius: 50%;
+}
+
+.activity-desc {
+    font-size: 15px;
+}
+
+.activity-btn {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.activity-btn:hover {
+    background-color: lightcoral;
+    color: whitesmoke;
+}
+
+.host-card {
+    background: lightcoral;
+    border-radius: 10px;
+    margin: 10px 10px;
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 50px;
+    color: whitesmoke;
+    text-shadow: 0 0 1px black;
+    padding: 10px 10px;
+    box-shadow: 10px 10px lightsalmon;
+}
+
+.host-img {
+    margin: 20px;
+    width: 150px; 
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.host-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#airbnb {
+    background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-45668567/original/6d0700b3-b6fe-4a07-ada8-c112ff48aaf4.jpeg?im_w=1200);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#airbnb-title {
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+#airbnb-btn {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+#airbnb-btn:hover {
+    background-color: lightcoral;
+    color: whitesmoke;
+}
